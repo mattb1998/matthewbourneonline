@@ -1,0 +1,60 @@
+body {
+    margin: 0 auto;
+    background-color: white
+}
+
+.logo img {
+      border-radius: 350px;
+    
+    }
+
+.logo img:hover{
+     opacity: 0;
+     transition: opacity 300ms ease-in-out;
+    box-shadow: 0
+    
+    }
+
+div {background-color: #36F1CD;
+     width: 400px;
+     height: 400px;
+     border-radius: 350px;
+     margin-top: 5vh;
+    
+     }
+
+img {
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+img:hover {
+ color: rgba(255, 255, 255, 1);
+ box-shadow: 0 5px 5px #36F1CD;
+}
+
+h2{ margin-top: -100px;
+    margin-bottom: 80px;
+    text-align: center;
+    color: black;
+    font-family: 'Yanone Kaffeesatz', sans-serif;}
+
+h1 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: black;
+    text-align: center;
+    padding: 5px 120px 5px 120px;
+    margin-top: 50px;
+    margin:5px;
+}
+
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin-right: 40px
+}
+
+nav li {
+    display: inline-block;
+}
